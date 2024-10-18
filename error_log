@@ -1,0 +1,338 @@
+[10-Apr-2023 03:55:54 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://cjwit.api-us1.com/api/3/contacts` resulted in a `422 Unprocessable Entity` response:
+{"message":"Could not process request","error":"Duplicate entry 'usemegod77@gmail.com' for key 'email'"}
+ in /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promises/src/TaskQueue.php(48): Guzzle in /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[10-Apr-2023 03:55:55 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://cjwit.api-us1.com/api/3/contacts` resulted in a `422 Unprocessable Entity` response:
+{"errors":[{"title":"Email address already exists in the system","detail":"","code":"duplicate","error":"","source":{"po (truncated...)
+ in /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promise in /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[08-May-2023 13:26:15 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://cjwit.api-us1.com/api/3/contacts` resulted in a `422 Unprocessable Entity` response:
+{"errors":[{"title":"Email address already exists in the system","detail":"","code":"duplicate","error":"","source":{"po (truncated...)
+ in /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promise in /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[13-May-2023 00:22:24 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://cjwit.api-us1.com/api/3/contacts` resulted in a `422 Unprocessable Entity` response:
+{"errors":[{"title":"Email address already exists in the system","detail":"","code":"duplicate","error":"","source":{"po (truncated...)
+ in /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promise in /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[23-May-2023 19:54:41 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/startpage.php on line 3
+[23-May-2023 19:55:31 UTC] PHP Notice:  Undefined variable: get_session in /home/redrikrr/public_html/sigefa/startpage.php on line 22
+[23-May-2023 19:55:31 UTC] PHP Notice:  Undefined variable: get_session in /home/redrikrr/public_html/sigefa/startpage.php on line 66
+[23-May-2023 19:55:31 UTC] PHP Notice:  Undefined variable: get_session in /home/redrikrr/public_html/sigefa/startpage.php on line 840
+[23-May-2023 19:55:31 UTC] PHP Notice:  Undefined variable: get_session in /home/redrikrr/public_html/sigefa/startpage.php on line 1218
+[23-May-2023 19:55:54 UTC] PHP Notice:  Undefined variable: get_session in /home/redrikrr/public_html/sigefa/startpage.php on line 62
+[23-May-2023 19:55:54 UTC] PHP Notice:  Undefined variable: get_session in /home/redrikrr/public_html/sigefa/startpage.php on line 836
+[23-May-2023 19:55:54 UTC] PHP Notice:  Undefined variable: get_session in /home/redrikrr/public_html/sigefa/startpage.php on line 1214
+[29-May-2023 17:32:16 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 17:32:21 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 17:32:21 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 17:32:26 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 17:35:38 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 17:36:13 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 17:37:23 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 17:47:53 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 17:50:09 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 17:51:43 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 17:51:51 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 17:55:53 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 18:01:09 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 18:02:26 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 18:04:57 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 18:18:54 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 18:19:18 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/home.php on line 3
+[29-May-2023 18:19:18 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 19:37:46 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/home.php on line 3
+[29-May-2023 19:37:47 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 19:37:52 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 19:43:38 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/home.php on line 3
+[29-May-2023 19:43:38 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 19:48:56 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/home.php on line 3
+[29-May-2023 19:48:57 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 19:51:03 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/home.php on line 3
+[29-May-2023 19:51:04 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 19:58:09 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/home.php on line 3
+[29-May-2023 19:58:09 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 20:03:24 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 20:06:04 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/home.php on line 3
+[29-May-2023 20:06:05 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 20:11:09 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/home.php on line 3
+[29-May-2023 20:11:10 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 20:15:49 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/home.php on line 3
+[29-May-2023 20:15:50 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 20:32:17 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/home.php on line 3
+[29-May-2023 20:32:18 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 20:37:06 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/home.php on line 3
+[29-May-2023 20:37:07 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 20:39:31 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 20:49:40 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[29-May-2023 20:49:41 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 21:10:38 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[29-May-2023 21:10:39 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 21:15:05 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 21:17:43 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[29-May-2023 21:17:43 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 21:22:41 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-May-2023 21:56:02 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[31-May-2023 18:30:59 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[31-May-2023 18:35:07 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[31-May-2023 18:35:07 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[31-May-2023 18:45:28 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[31-May-2023 18:45:28 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[31-May-2023 19:44:16 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[31-May-2023 19:44:53 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[31-May-2023 19:50:04 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[31-May-2023 19:50:30 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 05:03:12 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 05:03:18 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 05:08:09 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 05:10:04 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 05:11:57 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[01-Jun-2023 05:11:57 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 05:18:49 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://cjwit.api-us1.com/api/3/contacts` resulted in a `422 Unprocessable Entity` response:
+{"errors":[{"title":"Email address already exists in the system","detail":"","code":"duplicate","error":"","source":{"po (truncated...)
+ in /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/promise in /home/redrikrr/public_html/sigefa/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[01-Jun-2023 16:59:24 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 19:27:16 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 19:31:45 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 19:36:55 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 19:38:24 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 19:43:38 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 19:59:49 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[01-Jun-2023 19:59:49 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 20:05:35 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[01-Jun-2023 20:05:36 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 20:11:27 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[01-Jun-2023 20:11:28 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 20:17:20 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 20:18:05 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Jun-2023 23:02:13 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 00:08:40 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[02-Jun-2023 00:08:40 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 13:25:42 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 13:26:28 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 13:29:50 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 13:38:26 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 14:39:41 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 18:07:10 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 18:17:34 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 18:26:42 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 18:26:55 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[02-Jun-2023 18:26:57 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 18:31:15 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[02-Jun-2023 18:31:15 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 18:44:09 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[02-Jun-2023 18:44:10 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 18:46:14 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[02-Jun-2023 18:46:15 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 18:47:11 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[02-Jun-2023 18:47:11 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 19:00:43 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 19:08:15 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 20:29:07 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 20:30:20 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[02-Jun-2023 20:30:20 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 20:33:37 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[02-Jun-2023 20:43:44 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[03-Jun-2023 20:49:08 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[03-Jun-2023 20:54:36 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[03-Jun-2023 20:54:36 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[05-Jun-2023 13:48:43 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[05-Jun-2023 13:48:47 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Jun-2023 08:17:01 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[07-Jun-2023 08:17:03 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Jun-2023 13:20:43 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[07-Jun-2023 13:20:44 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[08-Jun-2023 13:45:15 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[08-Jun-2023 13:45:16 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[08-Jun-2023 14:59:13 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[08-Jun-2023 14:59:14 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[09-Jun-2023 06:57:43 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[09-Jun-2023 06:57:56 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[09-Jun-2023 13:00:15 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[09-Jun-2023 23:01:38 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[10-Jun-2023 18:25:26 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[10-Jun-2023 18:25:30 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[10-Jun-2023 18:56:16 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[10-Jun-2023 18:56:17 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[10-Jun-2023 19:05:06 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[10-Jun-2023 19:05:06 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[10-Jun-2023 19:06:37 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[10-Jun-2023 19:06:38 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[10-Jun-2023 19:07:19 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[10-Jun-2023 19:07:20 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[10-Jun-2023 20:30:38 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[10-Jun-2023 20:39:24 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[10-Jun-2023 20:46:48 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[12-Jun-2023 06:30:09 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[12-Jun-2023 07:45:46 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[12-Jun-2023 07:45:47 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[12-Jun-2023 08:56:11 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[13-Jun-2023 12:35:51 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[13-Jun-2023 12:35:51 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[13-Jun-2023 13:37:37 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[14-Jun-2023 13:36:54 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[14-Jun-2023 13:36:55 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[14-Jun-2023 13:50:53 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[15-Jun-2023 05:07:17 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[15-Jun-2023 05:07:18 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[15-Jun-2023 20:27:53 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[19-Jun-2023 12:20:02 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[19-Jun-2023 12:20:03 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[19-Jun-2023 13:53:12 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[20-Jun-2023 12:28:27 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[20-Jun-2023 12:28:28 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[20-Jun-2023 12:46:39 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[23-Jun-2023 05:39:29 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[23-Jun-2023 05:39:30 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[24-Jun-2023 07:00:23 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[27-Jun-2023 14:31:16 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[27-Jun-2023 14:31:17 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[05-Jul-2023 06:24:59 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[21-Jul-2023 13:50:27 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[21-Jul-2023 13:50:27 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[24-Jul-2023 09:24:00 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[24-Jul-2023 09:24:31 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[24-Jul-2023 14:24:57 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[24-Jul-2023 14:24:58 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[28-Jul-2023 16:51:08 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[20-Aug-2023 22:46:45 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-Aug-2023 19:18:53 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-Aug-2023 19:25:58 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-Aug-2023 19:41:19 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-Aug-2023 19:41:50 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-Aug-2023 19:47:46 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[29-Aug-2023 19:47:47 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[29-Aug-2023 19:48:52 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[29-Aug-2023 19:48:53 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[30-Aug-2023 06:04:30 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[30-Aug-2023 06:32:32 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[30-Aug-2023 06:33:03 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[30-Aug-2023 06:33:05 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[30-Aug-2023 10:57:00 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[30-Aug-2023 10:57:00 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[30-Aug-2023 10:57:01 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[30-Aug-2023 15:21:00 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[30-Aug-2023 18:28:29 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[31-Aug-2023 07:01:45 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[31-Aug-2023 07:06:46 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Sep-2023 17:58:07 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[01-Sep-2023 21:14:36 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[03-Sep-2023 23:04:14 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[04-Sep-2023 18:02:30 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[04-Sep-2023 18:08:02 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[04-Sep-2023 18:17:06 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[04-Sep-2023 18:17:08 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[04-Sep-2023 18:19:46 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[04-Sep-2023 18:21:51 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[04-Sep-2023 18:26:08 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[04-Sep-2023 18:26:09 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[04-Sep-2023 18:29:01 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[04-Sep-2023 18:30:11 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[04-Sep-2023 18:35:42 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[04-Sep-2023 18:41:53 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[04-Sep-2023 18:43:11 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[04-Sep-2023 18:55:04 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[05-Sep-2023 04:02:17 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[05-Sep-2023 04:02:18 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[05-Sep-2023 04:35:12 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[05-Sep-2023 17:30:53 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[05-Sep-2023 18:56:14 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[05-Sep-2023 18:56:15 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[05-Sep-2023 18:59:23 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[05-Sep-2023 19:44:43 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 06:17:20 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 06:20:33 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 06:30:34 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 06:31:51 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 06:34:24 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 06:35:54 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 06:36:50 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 06:39:03 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 06:43:43 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 06:45:09 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 06:48:13 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 07:02:08 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[07-Sep-2023 07:02:09 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 07:09:22 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[07-Sep-2023 07:09:23 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 07:11:59 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[07-Sep-2023 07:12:00 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 07:14:47 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[07-Sep-2023 07:14:47 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 07:28:41 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[07-Sep-2023 07:28:43 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 08:02:08 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 08:09:18 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[07-Sep-2023 08:11:32 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[07-Sep-2023 08:11:33 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[08-Sep-2023 03:33:53 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[08-Sep-2023 06:14:16 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[08-Sep-2023 06:14:16 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[08-Sep-2023 08:18:22 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[08-Sep-2023 08:18:24 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[12-Sep-2023 06:22:15 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[12-Sep-2023 06:44:36 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[12-Sep-2023 06:50:36 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[12-Sep-2023 06:50:55 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[12-Sep-2023 06:51:05 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[14-Sep-2023 07:04:13 UTC] PHP Warning:  session_start(): open(/opt/alt/php74/var/lib/php/session/sess_52adbdd20e82daa7579c606ed7e82b76, O_RDWR) failed: Disk quota exceeded (122) in /home/redrikrr/public_html/sigefa/index.php on line 2
+[14-Sep-2023 07:04:13 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php74/var/lib/php/session) in /home/redrikrr/public_html/sigefa/index.php on line 2
+[14-Sep-2023 07:04:13 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[14-Sep-2023 07:04:25 UTC] PHP Warning:  session_start(): open(/opt/alt/php74/var/lib/php/session/sess_52adbdd20e82daa7579c606ed7e82b76, O_RDWR) failed: Disk quota exceeded (122) in /home/redrikrr/public_html/sigefa/login.php on line 2
+[14-Sep-2023 07:04:25 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php74/var/lib/php/session) in /home/redrikrr/public_html/sigefa/login.php on line 2
+[14-Sep-2023 07:04:25 UTC] PHP Warning:  session_start(): open(/opt/alt/php74/var/lib/php/session/sess_52adbdd20e82daa7579c606ed7e82b76, O_RDWR) failed: Disk quota exceeded (122) in /home/redrikrr/public_html/sigefa/firstpg.php on line 2
+[14-Sep-2023 07:04:25 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php74/var/lib/php/session) in /home/redrikrr/public_html/sigefa/firstpg.php on line 2
+[14-Sep-2023 07:04:25 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[14-Sep-2023 07:04:25 UTC] PHP Warning:  session_start(): open(/opt/alt/php74/var/lib/php/session/sess_52adbdd20e82daa7579c606ed7e82b76, O_RDWR) failed: Disk quota exceeded (122) in /home/redrikrr/public_html/sigefa/index.php on line 2
+[14-Sep-2023 07:04:25 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php74/var/lib/php/session) in /home/redrikrr/public_html/sigefa/index.php on line 2
+[14-Sep-2023 07:04:25 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[15-Sep-2023 07:50:50 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[16-Sep-2023 18:24:51 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[17-Sep-2023 22:36:31 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[18-Sep-2023 00:49:48 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[18-Sep-2023 04:29:50 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[18-Sep-2023 07:31:24 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[19-Sep-2023 06:50:57 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[19-Sep-2023 06:52:20 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[19-Sep-2023 07:27:53 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[22-Sep-2023 04:03:06 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[27-Sep-2023 07:51:38 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[27-Sep-2023 07:58:40 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[27-Sep-2023 08:45:56 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[27-Sep-2023 17:11:36 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[27-Sep-2023 17:11:37 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[27-Sep-2023 17:13:35 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[27-Sep-2023 17:14:36 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[28-Sep-2023 05:47:49 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[28-Sep-2023 17:59:50 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[28-Sep-2023 18:01:58 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[28-Sep-2023 18:11:41 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[30-Sep-2023 19:46:03 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[30-Sep-2023 19:46:23 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[30-Sep-2023 19:46:25 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[30-Sep-2023 19:59:12 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[03-Oct-2023 18:36:55 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[04-Oct-2023 14:41:53 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[04-Oct-2023 14:41:54 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3
+[30-Nov-2023 16:19:05 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/firstpg.php on line 3
+[30-Nov-2023 16:19:06 UTC] PHP Notice:  Undefined index: psscod in /home/redrikrr/public_html/sigefa/index.php on line 3

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Visionary Coaching</title>
+
+	<style type="text/css">
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+			color: #06255c;
+		}
+
+		h1, h2, h3, h4, h5, h6{
+			margin: 0;
+		}
+
+		#footer {
+		    display: block;
+		    background: #060a25;
+		    padding: 15px;
+		    position: relative;
+		    width: 100%;
+		}
+
+		header {
+		    position: sticky;
+		    top: 0;
+		    width: 100%;
+		    background: #060a25;
+		    padding: 15px;
+		}
+
+		.text-white{
+			color: #fff;
+		}
+
+		.s-name h1 {
+		    font-family: Arial, Helvetica, sans-serif;
+		    font-size: 60px;
+		    line-height: 70px;
+		    color: #fff;
+		    margin: 0;
+		}
+
+		ul.attn {
+		    list-style-type: none;
+		}
+
+		.attn li {
+		    font-size: 30px;
+		    line-height: 38px;
+		    margin-bottom: 20px;
+		}
+
+		.btn-orange, .btn-orange:hover {
+		    background: #fc7e00;
+		    color: #fff;
+		    font-family: Arial, Helvetica, sans-serif;
+		    font-size: 18px;
+		    padding: 8px 24px;
+		}
+
+		h2 {
+		    font-size: 30px;
+		    line-height: 38px;
+		}
+
+		section#cf-slide-form {
+		    position: fixed;
+		    border-top: 1px solid #fff;
+		    width: 100%;
+		    background: #fff;
+		    z-index: 99;
+		    left: -100%;
+		    transition: 0.5s ease-in-out;
+		    overflow: auto;
+		}
+
+		section#cf-slide-form.show {
+		    left: 0%;
+		    transition: 0.5s ease-in-out;
+		}
+
+		.dark-bg {
+            background: #060a25;
+            color: #fff;
+        }
+        
+        .slidf h4 {
+            font-size: 30px;
+        }
+        
+        button.close, button.close:hover {
+            color: #fff;
+            opacity: 1;
+            width: 5%;
+            right: 0;
+            outline: 0;
+            box-shadow: none !important;
+        }
+        
+        #cf-slide-form .container {
+            max-width: 1140px !important;
+        }
+        
+        .cl-btn {
+            font-size: 34px;
+            line-height: 20px;
+        }
+        
+        .stk-close {
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        span.text-grey {
+            color: grey;
+        }
+        
+        .form-check input[type=checkbox] {
+            width: 20px;
+            height: 20px;
+            outline: 0;
+            box-shadow: none;
+        }
+        
+        .form-check label {
+            margin-top: 2px !important;
+            margin-left: 6px !important;
+        }
+        
+        .mt-6{
+            margin-top: 5rem !important;
+        }
+	</style>
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="header-bar d-flex align-items-center">
+			<div class="logo">
+				<a href=""><img src="cj-logo.png"></a>
+			</div>
+
+			<div class="s-name w-100 text-center">
+				<h1>Visionary Coaching</h1>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class="pb-4 slidf" id="cf-slide-form">
+    <div class="container-fluid">
+        <div class="dark-bg row">
+            <div class="container allow">
+                <div class="row position-relative py-2 pmr-2">
+                    <div class="col-md-12">
+                        <!--<h4 class="text-center mx-auto modal-title text-white">We love hearing from you!</h4>-->
+                        <h4 class="modal-title" id="contact_formlabel">Talk to us. <br> We love hearing from you!</h4>
+                    </div>
+                    <button type="button" class="close btn position-absolute text-end stk-close">
+                    	<span aria-hidden="true" onclick="close_slidein()" type="button" class="cl-btn white">×</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="container allow">
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <div id="cf_message" class="text-center"></div>
+                    <form method="POST" action="#" id="cf_modal">
+                    
+                        <div class="row mb-2">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter Name*" required="">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row mb-2">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter Email*" required="">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row mb-2">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="number" class="form-control" name="contact" id="contact" placeholder="Enter Phone No.*" required="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="5" name="message" placeholder="What's on your mind?*" required=""></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <div class="form-check" id="nls-subs">
+                                    <input class="form-check-input" type="checkbox" value="" id="newslt1">
+                                    <label class="form-check-label" for="newslt1">
+                                    Yes please add me to the CJWit Newsletter
+                                    </label>
+                                </div>
+                                
+                                <div id="nl-subs">
+                                    <label>You have already subscribed to the CJWit Newsletter</label>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 text-end">
+                                <p class="text-danger"><span class="text-grey">*</span> Required Fields</p>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-orange orngjoin"> <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; SEND</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="main midle py-4">
+	<div class="container">
+		<div class="row mb-4">
+			<div class="col-md-12">
+				<h2><span class="text-uppercase fw-bold">Attention:</span> Aspiring entrepreneurial, thought leader.</h2>
+				<h2>Do you want some live one-on-one help via Zoom to:</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<ul class="attn">
+					<li><span class="text-uppercase fw-bold">#1. Clarify</span> where you're at.</li>
+
+					<li><span class="text-uppercase fw-bold">#2. Crystalize</span> the vision of where you want to be.</li>
+
+					<li><span class="text-uppercase fw-bold">#3. Cross</span> the gap without having to figure it out all by yourself.</li>
+				</ul>
+			</div>
+
+			<div class="col-md-6">
+				<img src="vd-image.png" width="100%" height="auto">
+			</div>
+		</div>
+
+		<div class="row mt-6 mb-4">
+			<div class="col-md-12 text-center">
+				<h2>If so, just click this <span id="slidein-form" onclick="open_slidein()" class="text-uppercase btn btn-orange">Connect</span> button to request a call.</h2>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer id="footer">
+	<div class="container">
+        <div class="row align-items-center justify-content-center gy-2">
+            <div class="col-md-12 text-lg-start p-0">
+                <div class="d-flex flex-wrap justify-content-lg-between justify-content-center  flex-lg-row flex-md-column flex-column">
+                    <div class="pb-lg-0 pb-2 ">
+                        <small class="text-white">© 2022 Beyond CJWit.com All Rights Reserved.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script>
+	var playerkb;
+
+	function setCookie(cname, cvalue, exdays) {
+		const d = new Date();
+		d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+		let expires = "expires=" + d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function getCookie(cname) {
+		let name = cname + "=";
+		let ca = document.cookie.split(';');
+		for (let i = 0; i < ca.length; i++) {
+			let c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	$(document).ready(function() {
+		resize_window()
+
+		var nlsubs = getCookie('nl_subs');
+    
+	    if(nlsubs == 'done'){
+	        $('#nl-subs').show();
+	        $('#nls-subs').hide();
+	    }else{
+	        $('#nls-subs').show();
+	        $('#nl-subs').hide();
+	    }
+
+	    $(window).on('resize', function () {
+	    	resize_window()
+	    })
+
+	});
+
+	function resize_window(){
+		let header_height = $('header').innerHeight();
+	    let footer_height = $('footer').innerHeight();
+	    
+	    let total = header_height + footer_height;
+
+	    $('.midle').css('min-height','calc(100vh - '+total+'px)')
+	}
+
+	function open_slidein(){
+	    $('#cf-slide-form').toggleClass('show');
+	    $('#cf-slide-form').css('height','100%');
+	    
+	    if(playerkb){
+		    playerkb.pause();
+		}
+	}
+
+	function close_slidein(){
+	    $('#cf-slide-form').removeClass('show');
+	}
+
+	$('#cf_modal').on('submit', function(e){
+	    e.preventDefault();
+	    
+	    $('#cf_modal')[0].reset();
+	    $('#cf_message').html('<h4>Thank You! Your message has been sent.<br>We will get back to you as soon as possible.</h4>');
+	    if($("#newslt1").prop('checked') == true){
+	        setCookie('nl_subs', 'done', 365);
+
+	        setTimeout(function() { // allowing x secs to fade out loader
+	            $('#nl-subs').show();
+	            $('#nls-subs').hide()
+	        }, 1000);
+	    }
+	    
+	    $('#cf_modal').addClass('d-none');
+	})
+
+	$('button.close').click(function(){
+	    setTimeout(function() {
+	        $('#cf_message').html('');
+	        $('#cf_modal').removeClass('d-none');
+	    }, 1500);
+	})
+
+	$('#newslt1').click(function() {
+	    // var $newslt = $('.list-sort');
+	    if ($(this).attr('checked')) {
+	        $(this).removeAttr('checked');
+	    } else {
+	        $(this).attr('checked', true);
+	    }
+	});
+
+</script>
+</body>
+</html>
